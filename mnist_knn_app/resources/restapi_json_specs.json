@@ -1,0 +1,25 @@
+{
+    "input": {
+        "input_folder": "./test_mnist_images/"
+    },
+    "output": {
+        "results": {
+            "count": 3,
+            "predictions": [
+                {
+                    "image_name": "test_image_0",
+                    "category": "0"
+                },
+                {
+                    "image_name": "test_image_1",
+                    "category": "9"
+                },
+                {
+                    "image_name": "test_image_2",
+                    "category": "4"
+                }
+            ]
+        }
+    }
+}
+
