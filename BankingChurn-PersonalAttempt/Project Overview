@@ -1,0 +1,22 @@
+At Kubrick, we were tasked with creating a model predicting customer churn for US savings accounts where we were provided with basic 
+customer data including customer ID, account creation date, state and start balance, and transaction data which included customer ID,
+date, withdrawal amount and deposit amount. 
+
+We were required to define churn which we defined as two months of inactivity, aggregate the transaction data by customer and month,
+clean the data and engineer some features such as customer age, account age, percentage of months of positive net deposit as well as
+some macroeconomic data such as change in SP500 and GDP data among many others. 
+
+We then performed exploratory data analysis in order to select our features and build several classification models using Optuna to 
+tune the hyperparameters. When then used the SHAP values to remove some extra features and once we were happy with the performance 
+metrics we built an additional model aiming to predict the date of churn for customers that weren't predicted to churn within the 
+defined two months. 
+
+Once we had built the models, we performed some business analysis highlighting how much money the bank could save retaining certain 
+percentages of customers and what types of customers should be prioritised. We also built a Flask app and a Dockerfile so that the 
+model could be containerised and deployed. Finally, we put together an interactive Power BI dashboard highlighting the findings and 
+presented to the company. 
+
+Unfortunately this work was confidential and is unavailable to be shared. However, I have replicated and linked a personal attempt 
+at this project that is a very much slimmed down version that has a heavily reduced number of features and no exploratory data 
+analysis, but gives a general sense of the steps we took with regard to building the model. 
+
