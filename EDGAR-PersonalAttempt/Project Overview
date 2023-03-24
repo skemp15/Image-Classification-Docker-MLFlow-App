@@ -1,0 +1,13 @@
+At Kubrick, we were required to explore whether identification of negative or positive sentiment in the EDGAR 10-k filings
+reports can be used to predict short term movements in share prices. Specifically, we had to count the number of words 
+classified as 'Negative', 'Positive' etc. (according to the Loughran-McDonald dictionary) and determine whether this has 
+any affect on short-term sp500 price movements. 
+
+This involved building several Python modules that would retrieve a list of SP500 tickers from Wikipedia, use Selenium to 
+web scrape and download the annual reports for each company, and clean and convert these reports into a .txt format for the 
+company for 1, 2, 3, 5 and 10 day periods from the release of the reports. We where then required to show these findings 
+graphically and present to the company, drawing some business insights from our findings. 
+
+Although this work is confidential and not available to be shared, I replicated the project myself and have linked all the 
+steps that were completed which are very similar to what was completed at the company but without the extensive analysis and 
+business insights. 
