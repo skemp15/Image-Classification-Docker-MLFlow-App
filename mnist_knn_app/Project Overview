@@ -1,0 +1,2 @@
+At Kubrick, after learning about Flask and Docker, I built a flask app and a dockerfile for a classification model
+predicting MNIST data so that this model can be containerised and deployed. 
